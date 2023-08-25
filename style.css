@@ -135,21 +135,21 @@ img{
     justify-content: flex-end;
 }
 .notification-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #3882F6;
     border-radius: 5px;
     color: #E5E7EB;
-    padding: 30px ;
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    padding: 30px;
+    margin: 0;
 }
 .notification-part{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0;
-    padding: 0;
+    align-items: center;
 }
 .notification-main{
     font-weight: 800;
@@ -162,10 +162,7 @@ img{
     border: 2px solid #E5E7EB;
 }
 .notification{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 .footer{
     color: #E5E7EB;
